@@ -1,0 +1,1 @@
+Segment tree is a data structure which uses tree of possible [[Binary Search]] states at it's base.
