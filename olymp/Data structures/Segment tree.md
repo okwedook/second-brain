@@ -1,1 +1,1 @@
-Segment tree is a data structure which uses tree of possible [binary search](Binary%20Search.md) states at it's base.
+Segment tree is a data structure which uses tree of possible [binary search](../Binary%20Search.md) states at it's base.
