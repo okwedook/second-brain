@@ -1,7 +1,7 @@
 
 
-$$\partial$$
 $$\cong$$
+$$\partial$$
 $$\left[ \frac{x}{x}\right]$$
 $$\bigg|$$
 
