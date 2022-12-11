@@ -1,3 +1,10 @@
+
+
+$$\partial$$
+$$\cong$$
+$$\left[ \frac{x}{x}\right]$$
+$$\bigg|$$
+
 Нет одного единого определения, что такое **хаотическая система**. Но есть признаки хаотических систем — **отпечатки пальцев хаоса**.  
 
 **Горизонтом прогнозирования** называется определенное число шагов, на которое мы можем предсказывать состояние системы (пример: в задаче прогноза погоды с точностью до градуса горизонт прогнозирования составит 12 дней).  
@@ -13,6 +20,7 @@ $$\dot x_0(t) + \varepsilon \dot u(t) = F(x_0(t) + \varepsilon u(t))$$
 $$ F(x_0(t)) + \left[ \frac{\partial f_i}{\partial x_i} \bigg|_{x=x_0(t)} \right] \cdot \varepsilon u(t) + o(\varepsilon)$$
 Откуда имеем, что
 $$\cancel{\varepsilon} \dot u(t) \cong \left[ \frac{\partial f_i}{\partial x_i} \bigg|_{x=x_0(t)} \right] \cdot \cancel{\varepsilon} u(t) = A(t)u(t)$$
+
 Что является линейным дифференциальным уравнением, а $A(t)$ — фиксированная матрица
 Найти $x_0(t)$ можно так
 $$F(x) = 0 \rightarrow \widetilde{x_0} - \text{решение} \rightarrow x_0(t) = \widetilde{x_0}$$
