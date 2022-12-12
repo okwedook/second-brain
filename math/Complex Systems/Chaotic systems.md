@@ -42,7 +42,7 @@ $$F(x) = 0 \rightarrow \widetilde{x_0} - \text{решение} \rightarrow x_0(t
 $$
 \begin{cases}
 \lambda_1 > 0, \text{в хаотических системах} \\
-\lambda_1 < 0, \text{в регуларных системах} \\
+\lambda_1 < 0, \text{в регулярных системах} \\
 \end{cases}
 $$
 
