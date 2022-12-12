@@ -5,7 +5,7 @@
 Систему можно описать уравнением $\dot x = F(x)$, где значения — вектора.
 
 **Операция линеаризации** — по нелинейной системе строим локально линейную.   Решать линейные системы много проще.  
-Пусть $x_0(t)$ - решение системы, $x_0(t) + \varepsilon u(t)$ - возмущенная функция ($\varepsilon \ll 1$)
+Пусть $x_0(t)$ - решение системы, $x_0(t) + \varepsilon u(t)$ - возмущенная функция ($\varepsilon \ll 1$)  
 Тогда при подстановке получаем
 
 $$\dot x_0(t) + \varepsilon \dot u(t) = F(x_0(t) + \varepsilon u(t))$$
@@ -13,13 +13,13 @@ $$\dot x_0(t) + \varepsilon \dot u(t) = F(x_0(t) + \varepsilon u(t))$$
 Что является функцией от параметра $\varepsilon$  
 Далее можем разложить функцию по Тейлору в окрестности нуля
 
-$$F(x_0(t)) + \left[ \frac{\partial f_i}{\partial x_i} \bigg|_{x=x_0(t)} \right] \cdot \varepsilon u(t) + o(\varepsilon)$$
+$$F(x_0(t) + \varepsilon u(t)) = F(x_0(t)) + \left[ \frac{\partial f_i}{\partial x_i} \bigg|_{x=x_0(t)} \right] \cdot \varepsilon u(t) + o(\varepsilon)$$
 
 Откуда имеем, что
 
 $$\cancel{\varepsilon} \dot u(t) \cong \left[ \frac{\partial f_i}{\partial x_i} \bigg|_{x=x_0(t)} \right] \cdot \cancel{\varepsilon} u(t) = A(t)u(t)$$
 
-Что является линейным дифференциальным уравнением, а $A(t)$ — фиксированная матрица  
+Что является линейным дифференциальным уравнением, где $A(t)$ — фиксированная матрица  
 Найти $x_0(t)$ можно так
 
 $$F(x) = 0 \rightarrow \widetilde{x_0} - \text{решение} \rightarrow x_0(t) = \widetilde{x_0}$$
@@ -53,7 +53,7 @@ $$
 
 $$||x(0) - \tilde{x}(0)|| < \delta \rightarrow ||x(t) - \tilde{x}(t)|| < \varepsilon$$
 
-И аналогично неустойчива, если $\forall \varepsilon, \delta > 0, \exists T > 0$ такое, что $\exists t > T$
+И аналогично неустойчива, если $\forall \varepsilon, \delta > 0, \exists T > 0$ такое, что $\forall t > T$
 
 $$||x(t) - \tilde{x}(t)|| > \varepsilon \rightarrow \text{по I теореме Ляпунова} \rightarrow ||x(t) - \tilde{x}(t)|| \sim e^{\lambda_1 t}$$
 
