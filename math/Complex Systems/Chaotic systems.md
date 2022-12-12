@@ -10,9 +10,9 @@
 $$\dot x_0(t) + \varepsilon \dot u(t) = F(x_0(t) + \varepsilon u(t))$$
 Что является функцией от параметра $\varepsilon$  
 Далее можем разложить функцию по Тейлору в окрестности нуля
-$$ F(x_0(t)) + \left[ \frac{\partial f_i}{\partial x_i} \bigg|_{x=x_0(t)} \right] \cdot \varepsilon u(t) + o(\varepsilon)$$
+$$ F(x_0(t)) + \left[ \frac{\partial f_i}{\partial x_i} |_{x=x_0(t)} \right] \cdot \varepsilon u(t) + o(\varepsilon)$$
 Откуда имеем, что
-$$\cancel{\varepsilon} \dot u(t) \cong \left[ \frac{\partial f_i}{\partial x_i} \bigg|_{x=x_0(t)} \right] \cdot \cancel{\varepsilon} u(t) = A(t)u(t)$$
+$$\cancel{\varepsilon} \dot u(t) \cong \left[ \frac{\partial f_i}{\partial x_i} |_{x=x_0(t)} \right] \cdot \cancel{\varepsilon} u(t) = A(t)u(t)$$
 Что является линейным дифференциальным уравнением, а $A(t)$ — фиксированная матрица
 Найти $x_0(t)$ можно так
 $$F(x) = 0 \rightarrow \widetilde{x_0} - \text{решение} \rightarrow x_0(t) = \widetilde{x_0}$$
