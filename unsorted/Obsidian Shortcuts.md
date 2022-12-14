@@ -1,0 +1,2 @@
+- `Shift+F10` show spelling choices for current word
+- 
