@@ -60,3 +60,17 @@ $$F(x) = 0 \rightarrow \widetilde{x_0} - \text{решение} \rightarrow x_0(t
 [Прогнозирование на основе кластеризации](Predicative%20clustering.md)
 
 [Теорема Такенса (основная теорема прогнозирования)](Takens%20theorem.md)
+
+[[Kolmogorov-Sinai Entropy|Энтропия Колмогорова-Синая]]
+
+[[Attractor size computing|Размерности аттракторов и их вычисление]]
+
+[[Invariant measure|Инвариантная мера динамической системы]]
+
+Оценка параметров степенного распределения
+- [[Klose-Shalizi method|Подход Клозе-Шализи]]
+- [[Data collapse method|Подход на основе коллапса данных]]
+
+[[Catastrophy theory|Теория катастроф]]
+
+[[Bifurcation theory|Теория бифуркаций для задачи Коши для обыкновенных дифференциальных уравнений]]
