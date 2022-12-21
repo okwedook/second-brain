@@ -1,3 +1,3 @@
-![](ClausetShaliziMethod.png)
+![ClausetShalizi](../../attachments/ClausetShaliziMethod.png)
 
 #TODO 
