@@ -15,7 +15,7 @@ $$
     \begin{cases}
         \dot x = F(x(t)) \\
         \dot u^{(i)} = A(t)u^{(i)} \\
-        + \text{добавим условия} u^{(i)}(0) = V_i, \text{где все} V_i \text{ - ортогональны}
+        + \text{добавим условия } u^{(i)}(0) = V_i, \text{где все } V_i \text{ - ортогональны}
     \end{cases}
 $$
 
