@@ -1,0 +1,3 @@
+![](ClausetShaliziMethod.png)
+
+#TODO 
