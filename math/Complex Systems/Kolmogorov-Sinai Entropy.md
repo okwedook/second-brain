@@ -1,4 +1,4 @@
-**Энтропия динамической системы (Колмогорова-Синая)**
+## Энтропия динамической системы (Колмогорова-Синая)
 
 Считаем $H$ нашего распределения
 - Разобъем пространство на непересекающиеся части $A_{i_1}, \dots, A_{i_k}$ диаметром $\varepsilon$
@@ -17,7 +17,7 @@ $$
 Тогда **энтропия Колмогорова-Синая** равна
 
 $$
-    KS = \lim_{\varepsilon \rightarrow 0} \lim{k \rightarrow \infty} [H_{k + 1} - H_{k}] = \lim_{\varepsilon \rightarrow 0} \lim{k \rightarrow \infty} \frac{H_k}{k}
+    KS = \lim_{\varepsilon \rightarrow 0} \lim_{k \rightarrow \infty} [H_{k + 1} - H_{k}] = \lim_{\varepsilon \rightarrow 0} \lim_{k \rightarrow \infty} \frac{H_k}{k}
 $$
 
 Обладает свойствами аналогичными показателю Ляпунова
@@ -31,6 +31,6 @@ $$
 
 Это ещё один отпечаток хаоса, причем $KS \approx \lambda_1$
 
-**Обобщенные энтропии**
+## Обобщенные энтропии
 
 #Enhance 
