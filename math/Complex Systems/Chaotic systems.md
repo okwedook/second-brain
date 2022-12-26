@@ -69,10 +69,6 @@ $$F(x) = 0 \rightarrow \widetilde{x_0} - \text{решение} \rightarrow x_0(t
 
 [Инвариантная мера динамической системы](Invariant%20measure.md)
 
-Оценка параметров степенного распределения
-- [Подход Клозе-Шализи](Clauset-Shalizi-Newman%20method.md)
-- [Подход на основе коллапса данных](Data%20collapse%20method.md)
+[Оценка параметров степенного распределения](Power%20law%20parameter%20estimation.md)
 
-[Теория катастроф](Catastrophy%20theory.md)
-
-[Теория бифуркаций для задачи Коши для обыкновенных дифференциальных уравнений](Bifurcation%20theory.md)
+[Теория бифуркаций](Bifurcation%20theory.md)
