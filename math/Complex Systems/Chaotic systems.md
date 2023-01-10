@@ -43,7 +43,7 @@ $$F(x) = 0 \rightarrow \widetilde{x_0} - \text{решение} \rightarrow x_0(t
 
 [Численное интегрирование](../Calculus/Numerical%20Integration.md)
 
-[Алгоритм Бенеттина](Benettin%20Algorithm.md) вычисляет показатель Ляпунова аналитическим методом.
+[Алгоритм Бенеттина](Benettin%20Algorithm.md) вычисляет показатель Ляпунова аналитическим методом при известном уравнении системы.
 
 **Вычисление показателей Ляпунова по временному ряду**
 
@@ -63,11 +63,11 @@ $$F(x) = 0 \rightarrow \widetilde{x_0} - \text{решение} \rightarrow x_0(t
 
 [Теорема Такенса (основная теорема прогнозирования)](Takens%20theorem.md)
 
+[Инвариантная мера динамической системы](Invariant%20measure.md)
+
 [Энтропия Колмогорова-Синая](Kolmogorov-Sinai%20Entropy.md)
 
 [Размерности аттракторов и их вычисление](Attractor%20size%20computing.md)
-
-[Инвариантная мера динамической системы](Invariant%20measure.md)
 
 [Оценка параметров степенного распределения](Power%20law%20parameter%20estimation.md)
 
