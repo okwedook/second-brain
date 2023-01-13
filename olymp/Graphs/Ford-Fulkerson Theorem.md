@@ -1,0 +1,1 @@
+Greedy algorithm, which computes the [[maximum flow]] in a [[flow network]]
