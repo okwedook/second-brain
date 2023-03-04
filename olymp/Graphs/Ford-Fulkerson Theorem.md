@@ -1,1 +1,1 @@
-Greedy algorithm, which computes the [maximum flow](maximum%20flow) in a [flow network](flow%20network.md)
+Greedy algorithm, which computes the [maximum flow](maximum%20flow) in a [Flow network](Flow%20network.md)

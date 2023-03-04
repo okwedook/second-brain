@@ -2,3 +2,6 @@ This is markdown formatted notes for competitive programming topics, such as alg
 
 Dictionary
 - WLOG — without loss of generality
+- LHS — left hand side (in an equation/comparison)
+- RHS — right hand side (in an equation/comparison)
+- iff — if and only if
